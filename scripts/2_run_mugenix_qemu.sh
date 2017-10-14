@@ -1,5 +1,5 @@
 #!/bin/bash
 
-OSDEVPTH=/home/overflyer/mugenix
+OSDEVPTH=/mnt/ssd_data/git/mugenix
 
 qemu-system-i386 -cdrom $OSDEVPTH/isodir/mugenix.iso

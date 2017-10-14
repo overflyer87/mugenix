@@ -5,5 +5,8 @@
 
 size_t strlen(const string);
 bool strcmp(const string, const string);
+string strcpy(string, string);
+string strcat(string, string);
+string strchr(char, string);
 
 #endif

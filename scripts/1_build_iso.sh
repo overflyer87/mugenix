@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OSDEVPTH=/home/overflyer/mugenix
+OSDEVPTH=/mnt/ssd_data/git/mugenix
 
 rm $OSDEVPTH/isodir/mugenix.iso
 mkdir -p $OSDEVPTH/isodir/boot/grub

@@ -9,6 +9,10 @@ void kmain(void)
 {
 	/* Initialize screen in terminal mode*/
 	cls();
-	printstr("Hello World!");
+	bool str_are_same = strcmp("Hello World", "Hello World");
+	if (str_are_same) {
+		printchar('Y', 0, 0);
+	} 
+
 }
 

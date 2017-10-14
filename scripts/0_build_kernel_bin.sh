@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TOOLBIN=/home/overflyer/opt/cross/bin
-OSDEVPTH=/home/overflyer/mugenix
+TOOLBIN=$HOME/opt/cross/bin
+OSDEVPTH=/mnt/ssd_data/git/mugenix
 
 rm $OSDEVPTH/obj/*.o
 rm $OSDEVPTH/isodir/boot/kernel.bin

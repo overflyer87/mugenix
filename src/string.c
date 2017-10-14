@@ -45,3 +45,48 @@ size_t strlen(string str)
 
 
 
+string strcpy(string src, string dest) 
+{
+	size_t len = strlen(src);
+	size_t i;
+
+	for (i = 0; i < len; i++) {
+		dest[i] = src[i];
+	}
+
+	return dest;
+}
+
+string strcat(string strone, string strtwo) 
+{
+	string newstr;
+
+	size_t len_strone = strlen(strone);
+	size_t len_strtwo = strlen(strtwo);
+	size_t i;
+	
+	//additional -1 to kill off delimiter of first string
+	for (i = 0; i < len_strone - 1; i++) {
+		newstr[i] = strone[i];
+	}
+
+	for (i = len_strone; i < len_strtwo; i++) {
+		newstr[i] = strtwo[i];
+	}
+
+	return newstr;
+}
+
+string strchr(char c, string str) {
+
+	size_t len = strlen(str);
+	size_t i;
+
+	for (i = 0; i < strlen; i++)  {
+		if (str[i] == c) {
+			return &str[i];
+		}
+	}
+
+		return NULL;
+}

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OSDEVPTH=/home/overflyer/mugenix
+OSDEVPTH=/mnt/ssd_data/git/mugenix
 
 if grub-file --is-x86-multiboot $OSDEVPTH/isodir/boot/kernel.bin; then
   echo multiboot confirmed
